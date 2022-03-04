@@ -132,18 +132,13 @@
         background: #FFFFFF;
     }
 
-    .header {
-        width: 212px;
-        height: 54px;
-    }
-
     .header h1{
             /* О курсе */
         
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: bold;
-        font-size: 32px;
+        font-size: 4vw;
         line-height: 101.38%;
   
         color: #000000;
@@ -152,36 +147,34 @@
 
     .main {
         display: flex;
-        flex-wrap: wrap;
     }
 
     .main .main-info {
-        width: 384px;
-        height: 217px;
+        width: 40vw;
+        height: 20px;
     }
 
     .main .main-info p {
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 1.5vw;
         line-height: 150%;
-
-
 
         color: #000000;
 
     }
 
     .main-img .img {
-        width: 181.86px;
-        height: 182.44px;
+        width: 20vw;
+        /* height: 25vh; */
   
-        margin-left: 110px;
+        margin-left: 20px;
         margin-top: 15px;
 
     }
 
     .footer {
+        margin-top: 50px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -192,13 +185,13 @@
 
     .footer .footer-info h1{
 
-        width: 87px;
+        /* width: 87px; */
         height: 23px;
 
         margin-bottom: -10px;
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 1.5vw;
         line-height: 130%;
    
 
@@ -208,12 +201,12 @@
 
     .footer .footer-info p {
 
-        width: 88px;
+        /* width: 88px; */
         height: 23px;
 
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 1.2vw;
         line-height: 130%;
    
 
@@ -222,7 +215,7 @@
     }
 
     .footer .footer-info .f-l-p{
-        width: 110px;
+        /* width: 110px; */
         height: 23px;
     }
 
